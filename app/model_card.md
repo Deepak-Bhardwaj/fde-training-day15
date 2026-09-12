@@ -1,23 +1,23 @@
-# Model Card â€” bank-transaction-triage-agent
+# Model Card — bank-transaction-triage-agent
 
-- **App version:** 1.4.0  
-- **Git SHA:** testsha  
-- **Generated:** 2026-07-10T09:25:14.476267Z  
+- **App version:** 1.0.0  
+- **Git SHA:** f8e206e  
+- **Generated:** 2026-09-12T17:05:01.531663Z  
 - **Policy version:** v1
 
 ## Intended use
 Triage bank transactions into approve / review / block.
 
 ## Policy
-- Block over: Â£10000
+- Block over: £10000
 - Review risk levels: ['high']
 - Sanctioned countries: ['XX', 'ZZ']
 
 ## Evaluation
-- Golden set: 12/12 (100%)
+- Golden set: 5/5 (100%)
 
 ## Limitations
-- Deterministic policy demo â€” not a substitute for full AML screening.
+- Deterministic policy demo — not a substitute for full AML screening.
 - Thresholds are illustrative; calibrate to real risk appetite.
 
 ## Rollback

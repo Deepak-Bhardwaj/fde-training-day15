@@ -1,8 +1,8 @@
 {
   "model_name": "bank-transaction-triage-agent",
-  "app_version": "1.4.0",
-  "git_sha": "testsha",
-  "generated_utc": "2026-07-10T09:25:14.476267Z",
+  "app_version": "1.0.0",
+  "git_sha": "f8e206e",
+  "generated_utc": "2026-09-12T17:05:01.531663Z",
   "intended_use": "Triage bank transactions into approve / review / block.",
   "policy": {
     "version": "v1",
@@ -17,8 +17,8 @@
     "description": "Bank transaction-triage policy. Good baseline used in production."
   },
   "evaluation": {
-    "golden_set_passed": 12,
-    "golden_set_total": 12,
+    "golden_set_passed": 5,
+    "golden_set_total": 5,
     "pass_rate": 1.0
   },
   "limitations": [
